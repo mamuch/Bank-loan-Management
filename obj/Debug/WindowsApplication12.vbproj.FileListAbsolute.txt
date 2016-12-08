@@ -1,0 +1,12 @@
+c:\users\mamuc\documents\visual studio 2015\Projects\WindowsApplication12\WindowsApplication12\bin\Debug\WindowsApplication12.exe.config
+c:\users\mamuc\documents\visual studio 2015\Projects\WindowsApplication12\WindowsApplication12\bin\Debug\WindowsApplication12.exe
+c:\users\mamuc\documents\visual studio 2015\Projects\WindowsApplication12\WindowsApplication12\bin\Debug\WindowsApplication12.pdb
+c:\users\mamuc\documents\visual studio 2015\Projects\WindowsApplication12\WindowsApplication12\bin\Debug\WindowsApplication12.xml
+c:\users\mamuc\documents\visual studio 2015\Projects\WindowsApplication12\WindowsApplication12\obj\Debug\WindowsApplication12.vbprojResolveAssemblyReference.cache
+c:\users\mamuc\documents\visual studio 2015\Projects\WindowsApplication12\WindowsApplication12\obj\Debug\WindowsApplication12.Form1.resources
+c:\users\mamuc\documents\visual studio 2015\Projects\WindowsApplication12\WindowsApplication12\obj\Debug\WindowsApplication12.Resources.resources
+c:\users\mamuc\documents\visual studio 2015\Projects\WindowsApplication12\WindowsApplication12\obj\Debug\WindowsApplication12.vbproj.GenerateResource.Cache
+c:\users\mamuc\documents\visual studio 2015\Projects\WindowsApplication12\WindowsApplication12\obj\Debug\WindowsApplication12.exe
+c:\users\mamuc\documents\visual studio 2015\Projects\WindowsApplication12\WindowsApplication12\obj\Debug\WindowsApplication12.xml
+c:\users\mamuc\documents\visual studio 2015\Projects\WindowsApplication12\WindowsApplication12\obj\Debug\WindowsApplication12.pdb
+C:\Users\mamuc\Documents\Visual Studio 2015\Projects\WindowsApplication12\WindowsApplication12\bin\Debug\Bunifu_UI_v1.52.dll

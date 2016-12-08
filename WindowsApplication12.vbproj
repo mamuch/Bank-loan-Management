@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5947F44B-5A8D-461C-A5D8-A28E02F8FDB1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication12.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication12</RootNamespace>
+    <AssemblyName>WindowsApplication12</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApplication12.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApplication12.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Bunifu Technologies\Bunifu Framework Manager\bin\updates\Bunifu_UI_1.5\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BankAccount.vb" />
+    <Compile Include="CustomerAccount.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480391173_bank-building.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480391995_calculator-pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392018_atm-cash-machine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392044_hand-coins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392079_cash-money-wallet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392109_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392137_gear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392151_mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392225_folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392401_advantage_payment_way.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392414_bank-building.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392447_bank-building.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392502_bank-building.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392581_atm-cash-machine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392630_document-dollar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392823_hand-coins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392876_bank-building.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392932_atm-cash-machine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392907_receipt-paid-paper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392896_hand-coins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480393320_close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392932_atm-cash-machine1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392907_receipt-paid-paper1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392896_hand-coins1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480392876_bank-building1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480397031_interact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480397178_Update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480397262_money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480397336_compose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480397395_money-safe-box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480397564_computer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480397462_dollar-bills.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480397414_dollar-exchange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480398034_Money-Increase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480398668_floppy-disk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480398787_close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480399008_printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480475442_add_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480475476_cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480475767_flat-style-circle-add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480475969_free-29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480476051_free-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480476105_free-38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480476090_free-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480476028_free-37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480481748_clipboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480481832_file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480482032_news.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1480482087_profle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_19 [Converted].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\needed.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
